@@ -5,7 +5,7 @@ Independent local RAG assistant for project documentation.
 This project is currently configured for Winnipeg project documents stored outside the code repository:
 
 ```text
-C:\Users\bwu\OneDrive - Metercor Inc\Attachments\Desktop\RAG\Winnipeg documentation
+C:\Users\bwu\
 ```
 
 The raw documents stay outside this code project. The app reads them, creates a local vector index under `storage/`, retrieves relevant chunks locally, then sends only the selected chunks plus the user question to the DeepSeek API.
